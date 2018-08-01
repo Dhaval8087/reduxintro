@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import List from '../src/components/List';
+import ItemList from '../src/components/ItemList';
 import ConnectedForms from '../src/components/Form'
 import logo from './logo.svg';
 import './App.css';
@@ -21,8 +22,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <List />
-        <ConnectedForms/>
+        <ItemList />
+       
       </div>
     );
   }
